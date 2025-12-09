@@ -35,12 +35,13 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
 
 3. Prerequisites
    
-   Install these first:
-   -- Python 3.9+
-   -- Node.js + npm
+      Install these first:
+   
+         Python 3.9+
+         Node.js + npm
 
 
-4. Backend Setup (Flask + Model)
+5. Backend Setup (Flask + Model)
    
    i. Go to backend folder:
    
