@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+const API_URL = "https://customer-insurance-claim-analysis-backend.onrender.com";
 
 function App() {
   const [form, setForm] = useState({
@@ -58,11 +59,12 @@ function App() {
         vehicle_type: form.vehicle_type,
       };
 
-      const res = await fetch("http://localhost:8000/predict", {
+      const res = await fetch(`${API_URL}/predict`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
+
 
       if (!res.ok) throw new Error("Backend error");
 
