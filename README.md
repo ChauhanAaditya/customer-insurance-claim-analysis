@@ -89,21 +89,20 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
            Local: http://localhost:5173
 
 ### 6. How to Run the Whole Project
-      i. Start Backend (Flask)
+   i. Start Backend (Flask)
    
             cd backend #(Activate venv if you are using it)
             python app.py
    
-      ii. Start Frontend (React) – in another terminal
+   ii. Start Frontend (React) – in another terminal
    
             cd frontend
             npm run dev
-   
-     iii. Open your browser and go to:
+   iii. Open your browser and go to:
    
             http://localhost:5173
    
-     iv. Fill the form (policy details, car info, etc.) → click Submit → see prediction (e.g., "Claim Likely" / "No Claim").
+   iv. Fill the form (policy details, car info, etc.) → click Submit → see prediction (e.g., "Claim Likely" / "No Claim").
 
 ### 7. Customization
     
