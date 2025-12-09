@@ -13,7 +13,7 @@ This project is a car insurance claim prediction system with:
 
 Project Structure:
 
-car-claim-project/
+   car-claim-project/
    ├─ backend/
    │  ├─ app.py
    │  ├─ claim_model.pkl
@@ -26,6 +26,7 @@ car-claim-project/
    │     ├─ main.jsx
    │     └─ App.jsx
    └─ README.md
+
 
 
 Make sure your .pkl model path in app.py matches where you actually placed the file.
