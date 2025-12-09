@@ -1,7 +1,7 @@
 
-Car Insurance Claim Prediction – Full Stack App
+# Car Insurance Claim Prediction – Full Stack App
 
-This project is a car insurance claim prediction system with:
+## This project is a car insurance claim prediction system with:
 🧠 A trained Machine Learning model (.pkl file)
 🐍 A Flask backend API (app.py) that loads the model and serves predictions
 ⚛️ A React (Vite) frontend where users fill a form and see the prediction
