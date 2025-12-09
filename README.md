@@ -10,10 +10,9 @@
 
 ### 1. Tech Stack
    
-       Backend: Python, Flask
+       Backend: Python, FastAPI
        ML: scikit-learn / any .pkl model
        Frontend: React + Vite
-       Others: Axios (for API calls), CORS
 
 ### 2. Project Structure:
 ```
@@ -66,7 +65,7 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
    
    iv. Run the backend:
    
-           python app.py
+         python app.py
    
          By default it typically runs at:
          http://127.0.0.1:5000 or http://localhost:5000
@@ -89,7 +88,7 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
            Local: http://localhost:5173
 
 ### 6. How to Run the Whole Project
-   i. Start Backend (Flask)
+   i. Start Backend
    
             cd backend #(Activate venv if you are using it)
             python app.py
