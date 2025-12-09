@@ -13,7 +13,7 @@
        Frontend: React + Vite
        Others: Axios (for API calls), CORS
 
-### 2. 3Project Structure:
+### 2. Project Structure:
 ```
    car-claim-project/
    ├─ backend/
