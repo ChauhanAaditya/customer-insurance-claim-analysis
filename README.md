@@ -6,58 +6,58 @@ This project is a car insurance claim prediction system with:
 ⚛️ A React (Vite) frontend where users fill a form and see the prediction
 
 1. Tech Stack
-Backend: Python, Flask
-ML: scikit-learn / any .pkl model
-Frontend: React + Vite
-Others: Axios (for API calls), CORS
+   Backend: Python, Flask
+   ML: scikit-learn / any .pkl model
+   Frontend: React + Vite
+   Others: Axios (for API calls), CORS
 
 Project Structure:
 
 car-claim-project/
-├─ backend/
-│  ├─ app.py
-│  ├─ claim_model.pkl
-│  ├─ requirements.txt
-├─ frontend/
-│  ├─ index.html
-│  ├─ package.json
-│  ├─ vite.config.js
-│  └─ src/
-│     ├─ main.jsx
-│     └─ App.jsx
-└─ README.md
+   ├─ backend/
+   │  ├─ app.py
+   │  ├─ claim_model.pkl
+   │  ├─ requirements.txt
+   ├─ frontend/
+   │  ├─ index.html
+   │  ├─ package.json
+   │  ├─ vite.config.js
+   │  └─ src/
+   │     ├─ main.jsx
+   │     └─ App.jsx
+   └─ README.md
 
 
 Make sure your .pkl model path in app.py matches where you actually placed the file.
 
 
 3. Prerequisites
-
-Install these first:
--- Python 3.9+
--- Node.js + npm
+   
+   Install these first:
+   -- Python 3.9+
+   -- Node.js + npm
 
 
 4. Backend Setup (Flask + Model)
    
-i. Go to backend folder:
-        cd backend
-ii. Create and activate virtual environment:
-        Windows:
-                python -m venv venv
-                venv\Scripts\activate
-        Linux/macOS:
-                python -m venv venv
-                source venv/bin/activate
-
-iii. Install dependencies:
-        pip install -r requirements.txt
-
-iv. Run the backend:
-        python app.py
-
-   By default it typically runs at:
-   http://127.0.0.1:5000 or http://localhost:5000
+   i. Go to backend folder:
+           cd backend
+   ii. Create and activate virtual environment:
+           Windows:
+                   python -m venv venv
+                   venv\Scripts\activate
+           Linux/macOS:
+                   python -m venv venv
+                   source venv/bin/activate
+   
+   iii. Install dependencies:
+           pip install -r requirements.txt
+   
+   iv. Run the backend:
+           python app.py
+   
+      By default it typically runs at:
+      http://127.0.0.1:5000 or http://localhost:5000
 
 5. Frontend Setup (React + Vite)
 
