@@ -18,7 +18,7 @@
 ```
    car-claim-project/
    ├─ backend/
-   │  ├─ app.py
+   │  ├─ main.py
    │  ├─ claim_model.pkl
    │  ├─ requirements.txt
    ├─ frontend/
@@ -65,11 +65,11 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
    
    iv. Run the backend:
    
-         python app.py
+         python main.py
 
    If this doesn't work run this command instead:
    
-         uvicorn app:app --reload
+         uvicorn app:main --reload
    By default it typically runs at:
    
          http://127.0.0.1:8000 or http://localhost:8000
