@@ -42,38 +42,48 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
 4. Backend Setup (Flask + Model)
    
    i. Go to backend folder:
+   
            cd backend
+   
    ii. Create and activate virtual environment:
-           Windows:
+         Windows:
+   
                    python -m venv venv
                    venv\Scripts\activate
-           Linux/macOS:
+   
+         Linux/macOS:
                    python -m venv venv
                    source venv/bin/activate
    
    iii. Install dependencies:
+   
            pip install -r requirements.txt
    
    iv. Run the backend:
+   
            python app.py
    
       By default it typically runs at:
       http://127.0.0.1:5000 or http://localhost:5000
 
-5. Frontend Setup (React + Vite)
+6. Frontend Setup (React + Vite)
 
    i. Open a new terminal and go to frontend folder:
+   
         cd frontend
    
    ii. Install npm packages:
+   
         npm install
 
    iii. Start the frontend dev server:
+   
         npm run dev
-        Vite will show something like:
+   
+    Vite will show something like:
         Local: http://localhost:5173
 
-6. How to Run the Whole Project
+8. How to Run the Whole Project
         i. Start Backend (Flask)
                 cd backend #(Activate venv if you are using it)
                 python app.py
@@ -84,7 +94,7 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
                 http://localhost:5173
         iv. Fill the form (policy details, car info, etc.) → click Submit → see prediction (e.g., "Claim Likely" / "No Claim").
 
-7. Customization
+10. Customization
         - Update form fields in App.jsx to match your model features.
         - Update feature extraction logic in app.py to match whatever the model was trained on.
         - Change UI text / labels to something like:
