@@ -70,8 +70,8 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
    If this doesn't work run this command instead:
    
          uvicorn app:app --reload
-
-         By default it typically runs at:
+   By default it typically runs at:
+   
          http://127.0.0.1:8000 or http://localhost:8000
 
 ### 5. Frontend Setup (React + Vite)
