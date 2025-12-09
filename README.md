@@ -2,17 +2,18 @@
 # Car Insurance Claim Prediction – Full Stack App
 
 ## This project is a car insurance claim prediction system with:
-🧠 A trained Machine Learning model (.pkl file)
-🐍 A Flask backend API (app.py) that loads the model and serves predictions
-⚛️ A React (Vite) frontend where users fill a form and see the prediction
+   🧠 A trained Machine Learning model (.pkl file)
+   🐍 A Flask backend API (app.py) that loads the model and serves predictions
+   ⚛️ A React (Vite) frontend where users fill a form and see the prediction
 
-1. Tech Stack
-   Backend: Python, Flask
-   ML: scikit-learn / any .pkl model
-   Frontend: React + Vite
-   Others: Axios (for API calls), CORS
+### 1. Tech Stack
+   
+       Backend: Python, Flask
+       ML: scikit-learn / any .pkl model
+       Frontend: React + Vite
+       Others: Axios (for API calls), CORS
 
-Project Structure:
+### 2. 3Project Structure:
 ```
    car-claim-project/
    ├─ backend/
@@ -33,7 +34,7 @@ Project Structure:
 Make sure your .pkl model path in app.py matches where you actually placed the file.
 
 
-3. Prerequisites
+### 3. Prerequisites
    
       Install these first:
    
@@ -41,7 +42,7 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
          Node.js + npm
 
 
-5. Backend Setup (Flask + Model)
+### 4. Backend Setup (Flask + Model)
    
    i. Go to backend folder:
    
@@ -68,7 +69,7 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
       By default it typically runs at:
       http://127.0.0.1:5000 or http://localhost:5000
 
-6. Frontend Setup (React + Vite)
+### 5. Frontend Setup (React + Vite)
 
    i. Open a new terminal and go to frontend folder:
    
@@ -85,7 +86,7 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
     Vite will show something like:
         Local: http://localhost:5173
 
-8. How to Run the Whole Project
+### 6. How to Run the Whole Project
       i. Start Backend (Flask)
    
                 cd backend #(Activate venv if you are using it)
@@ -102,7 +103,7 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
    
      iv. Fill the form (policy details, car info, etc.) → click Submit → see prediction (e.g., "Claim Likely" / "No Claim").
 
-10. Customization
+### 7. Customization
     
         - Update form fields in App.jsx to match your model features.
         - Update feature extraction logic in app.py to match whatever the model was trained on.
