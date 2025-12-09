@@ -12,7 +12,7 @@ This project is a car insurance claim prediction system with:
    Others: Axios (for API calls), CORS
 
 Project Structure:
-
+```
    car-claim-project/
    ├─ backend/
    │  ├─ app.py
@@ -26,7 +26,7 @@ Project Structure:
    │     ├─ main.jsx
    │     └─ App.jsx
    └─ README.md
-
+```
 
 
 Make sure your .pkl model path in app.py matches where you actually placed the file.
