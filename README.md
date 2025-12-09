@@ -4,7 +4,7 @@
 ## This project is a car insurance claim prediction system with:
 ```
    🧠 A trained Machine Learning model (.pkl file)
-   🐍 A Flask backend API (app.py) that loads the model and serves predictions
+   ⚡ A FastAPI backend API (app.py) that loads the model and serves predictions
    ⚛️ A React (Vite) frontend where users fill a form and see the prediction
 ```
 
@@ -43,7 +43,7 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
          Node.js + npm
 
 
-### 4. Backend Setup (Flask + Model)
+### 4. Backend Setup (FastAPI + Model)
    
    i. Go to backend folder:
    
@@ -66,9 +66,13 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
    iv. Run the backend:
    
          python app.py
+
+   If this doesn't work run this command instead:
    
+         uvicorn app:app --reload
+
          By default it typically runs at:
-         http://127.0.0.1:5000 or http://localhost:5000
+         http://127.0.0.1:8000 or http://localhost:8000
 
 ### 5. Frontend Setup (React + Vite)
 
