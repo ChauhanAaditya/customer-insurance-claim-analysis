@@ -46,7 +46,7 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
            cd backend
    
    ii. Create and activate virtual environment:
-         Windows:
+``` Windows:
    
                    python -m venv venv
                    venv\Scripts\activate
@@ -54,7 +54,7 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
          Linux/macOS:
                    python -m venv venv
                    source venv/bin/activate
-   
+   ```
    iii. Install dependencies:
    
            pip install -r requirements.txt
