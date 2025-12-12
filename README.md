@@ -105,7 +105,10 @@ Make sure your .pkl model path in app.py matches where you actually placed the f
    
             http://localhost:5173
    
-   iv. Fill the form (policy details, car info, etc.) → click Submit → see prediction (e.g., "Claim Likely" / "No Claim").
+   iv.
+   ```
+Fill the form (policy details, car info, etc.) → click Submit → see prediction (e.g., "Claim Likely" / "No Claim").
+```
 
 ### 7. Customization
     
